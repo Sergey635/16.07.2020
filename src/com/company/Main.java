@@ -9,7 +9,8 @@ public class Main {
         buffer = buffer.replaceAll(" " , "");   // replaceAll   заміняює вказані символи на інші вказані
         buffer = buffer.replaceAll(",","");
         System.out.println(buffer);
-        String backword = "";       //всі перемінні повині мати правильні назви
+        String backword = "";       //всі перемінні повині мати правильні назви,
+                                    // всі починаються з малої букви,
         //GUI - Graphic User Interface - FrontEnd
 
 
@@ -23,5 +24,30 @@ public class Main {
 
         boolean result = backword.equals(buffer);           //equals - означає рівний
         System.out.println(result);
+
+
+        int[] arrey = new int[5];           //задали массив з 5-и елементів
+        arrey[0] = 10;
+        arrey[1] = 2;
+        arrey[2] = 3;
+        arrey[3] = 40;
+        arrey[4] = 50;          //масив набили значеннями
+
+        for (int i = 0; i < arrey.length ; i++) {
+        /*    System.out.println(arrey[i]);*/
+            if(arrey[i] >= 10){
+                System.out.println(arrey[i]);
+            }
+
+            int ageOffMyFriend; //це називається CamelCase !!!!
+
+
+            int areaOfMyGarden;  //джава-конвеншн
+        }
+
+
+
+
+
     }
 }
